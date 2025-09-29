@@ -1,0 +1,219 @@
+{
+  "homepages": [],
+  "source_base_path": "D:/a/1/s/lv-LV",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      },
+      "is_incremental": false
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/lursoft/faq.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/lursoft/faq.html",
+          "hash": "QDYCR8+FeNDyEcEt4ixj4d7bTueWoo9srRN+p+VbMAk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/lursoft/images/Set_up_1.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/lursoft/images/Set_up_1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/lursoft/lursoft.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/lursoft/lursoft.html",
+          "hash": "vZLQMHYZ4KKTUxCFOPHCHIwSflfp/18MYTGfQ0XmP1o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/lursoft/overview.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/lursoft/overview.html",
+          "hash": "t5Vj1wT01H3tAiTn2s+CPve7iKRMLiEynKYb6/4lDBI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/lursoft/toc.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/lursoft/toc.html",
+          "hash": "OiUKELle51A8fUVBMzWYY8tm5UZo7N/LWqC07pMLHss="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/support/customer_terms.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/support/customer_terms.html",
+          "hash": "LI+sGNKspOHLGhYLHF3buwDzO9Rq+P0ryvr+9Lg2UWE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/support/privacy_statement.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/support/privacy_statement.html",
+          "hash": "voHnJwxizX6QehiK++xcQW/w+lOnEjx+p4Aox5jh1nU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/support/toc.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/support/toc.html",
+          "hash": "4KRXG2P6Hsmwzps3uwNMoXYJTm/6t6/5LOOXsD5BsXM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/elva_logo.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "images/elva_logo.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/elva_logo_big.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/elva_logo_big.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "pl1FYGLPczgXX5uGNzShLgNCaARl4N9nVxK9bLPgHTE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "readme.md",
+      "output": {
+        ".html": {
+          "relative_path": "readme.html",
+          "hash": "Lzbj/3ECXjFfhpk/AMuIDotN8puSoriIypCkreCLBIg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "1YqtqLvQ0lAVX04hEV0ORrzzMqLdlnSLtGD0D/Hz4s0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 7,
+          "skipped_file_count": 0
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
