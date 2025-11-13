@@ -26,10 +26,87 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "articles/lursoft/images/set_up_1.png",
+      "source_relative_path": "articles/lursoft/images/Setup_003.png",
       "output": {
         "resource": {
-          "relative_path": "articles/lursoft/images/set_up_1.png"
+          "relative_path": "articles/lursoft/images/Setup_003.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/lursoft/images/customer_001.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/lursoft/images/customer_001.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/lursoft/images/customer_002.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/lursoft/images/customer_002.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/lursoft/images/customer_003.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/lursoft/images/customer_003.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/lursoft/images/sales_001.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/lursoft/images/sales_001.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/lursoft/images/sales_003.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/lursoft/images/sales_003.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/lursoft/images/setup_001.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/lursoft/images/setup_001.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/lursoft/images/setup_002.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/lursoft/images/setup_002.png"
         }
       },
       "is_incremental": false,
@@ -44,7 +121,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/lursoft/lursoft.html",
-          "hash": "he+K/gvZI+iHJtFzY/RWq9rEQWcM5Y7xueaFWzaR9TM="
+          "hash": "es7H+rnU0W4er0LuvPidKvrRIqxhi/nc6le1WhcRxd0="
         }
       },
       "is_incremental": false,
