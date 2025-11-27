@@ -80,29 +80,214 @@
 <h1 id="darba-uzsākšana">Darba uzsākšana</h1>
 
 <h2 id="piekļuves-tiesības">Piekļuves tiesības</h2>
-<p>Lai izmantotu Lursoft Integration, lietotājam nepieciešams piešķirt tiesību kopu <strong>ELV2-LURSOFT</strong>.</p>
-<h1 id="-uzstādījumi">Lursoft Integration Uzstādījumi</h1>
+<p>Lai izmantotu Lursoft Integration, lietotājam nepieciešams piešķirt tiesību kopu <strong>ELV2-LURSOFT</strong></p>
+<h1 id="-uzstādījumi">Lursoft Integration uzstādījumi</h1>
 <ol>
-<li>Nospiediet <strong>Meklēt</strong> ikonu</li>
+<li>Nospiediet <strong>Meklēt</strong> ikonu lapas augšējā labajā stūrī, ievadiet <strong>Lursoft uzstādījumi</strong> un izvēlieties atbilstošo saiti</li>
+<li><strong>Lursoft uzstādījumi</strong> lapā aizpildiet integrācijas pamatuzstādījumus cilnē <strong>Visp. info</strong>:</li>
 </ol>
-<p>Lursoft Integration</p>
-
-<p><img src="images/setup_001.png" alt="alt">
-<img src="images/setup_002.png" alt="alt">
-<img src="images/Setup_003.png" alt="alt"></p>
-<div style="page-break-after: always; visibility: hidden"> 
-\pagebreak 
-</div>
+<ul>
+<li>Iespējots - ieslēdziet, ja sāksiet izmantot Lursoft Integration;</li>
+<li>Lietotāja vārds - norādiet lietotāja vārdu, kas saņemts no Lursoft;</li>
+<li>Lietotāja parole - norādiet lietotāja paroli, kas saņemta no Lursoft;</li>
+<li>Lietotāja oAuth ID - norādiet lietotāja oAuth ID, kas saņemts no Lursoft;</li>
+<li>Lietotāja oAuth parole - norādiet lietotāja oAuth ID paroli, kas saņemta no Lursoft;</li>
+<li>Scope - norādiet Scope vērtību, kas saņemta no Lursoft;</li>
+<li>Atjaunināt bez apstiprinājuma loga - ieslēdziet, ja vēlaties izmantot Lursoft datu atjaunināšanu bez lietotāja apstiprinājuma loga izmantošanas;</li>
+<li>Piekļuves atslēga - tiek piešķirta un aizpildīta sistēmā automātiski pēc Lursoft autentifikācijas izpildes;</li>
+<li>Piekļuves atslēgas datums, laiks - tiek piešķirta un aizpildīta sistēmā automātiski pēc Lursoft autentifikācijas izpildes;</li>
+<li>Piekļuves atslēgas derīgums - tiek piešķirta un aizpildīta sistēmā automātiski pēc Lursoft autentifikācijas izpildes;</li>
+<li>Atjaunošanas atslēga - tiek piešķirta un aizpildīta sistēmā automātiski pēc Lursoft autentifikācijas izpildes;</li>
+<li>Atjaunošanas atslēgas datums, laiks - tiek piešķirta un aizpildīta sistēmā automātiski pēc Lursoft autentifikācijas izpildes;</li>
+<li>Atjaunošanas atslēgas derīgums - norādiet vērtību +30D, kas ir definēta Lursoft dokumentācijā. Atjaunošanas atslēgas derīguma laiks ir 30 dienas vai 720 stundas;</li>
+</ul>
+<p><strong>Lursoft uzstādījumi</strong> lapā aizpildiet integrācijas uzstādījumus cilnē <strong>Lursoft LV</strong>:</p>
+<ul>
+<li>LV Valsts kods - norādiet vērtību LV no valstu saraksta, lai veiktu datu pieprasījumus no Lursoft Latvijas reģistra;</li>
+<li>Piekļuves atslēgas pieprasījums - norādiet autorizācijas atslēgas piekļuves iegūšanas saiti;</li>
+<li>Pieprasījuma API - norādiet datu pieprasījuma saiti partnera meklēšanai pēc Reģistrācijas numura;</li>
+<li>Juridiskās personas izziņa - norādiet datu pieprasījuma saiti partnera juridiskās izziņas iegūšanai;</li>
+<li>Publiskās personas vai iestādes izziņa - norādiet datu pieprasījuma saiti partnera kā Publiskās personas vai iestādes izziņas iegūšanai.</li>
+</ul>
+<p><strong>Lursoft uzstādījumi</strong> lapā aizpildiet integrācijas uzstādījumus cilnē <strong>Lursoft LT</strong>:</p>
+<ul>
+<li>LT Valsts kods - norādiet vērtību LT no valstu saraksta, lai veiktu datu pieprasījumus no Lursoft Lietuvas reģistra;</li>
+<li>Juridiskās personas izziņa LT - norādiet datu pieprasījuma saiti partnera juridiskās izziņas iegūšanai no LT reģistra.</li>
+</ul>
+<p><strong>Lursoft uzstādījumi</strong> lapā aizpildiet integrācijas uzstādījumus cilnē <strong>Lursoft EE</strong>:</p>
+<ul>
+<li>EE Valsts kods - norādiet vērtību EE no valstu saraksta, lai veiktu datu pieprasījumus no Lursoft Igaunijas reģistra;</li>
+<li>Juridiskās personas izziņa EE - norādiet datu pieprasījuma saiti partnera juridiskās izziņas iegūšanai no EE reģistra.</li>
+</ul>
+<p><img src="images/setup_001.png" alt="alt"></p>
+<p>Visas uzstādījumos nepieciešamās pieprasījumu adreses par valstu (LV, LT un EE) datu reģistru pieprasījumiem ir atrodamas Lursoft dokumentācijā <a href="https://www.lursoft.lv/lv/api-risinajumi-un-sadarbibas-partneri">Lursoft</a>.</p>
+<h2 id="lursoft-statusu-uzstādījumi">Lursoft Statusu uzstādījumi</h2>
+<ol>
+<li>Nospiediet <strong>Meklēt</strong> ikonu lapas augšējā labajā stūrī, ievadiet <strong>Lursoft statusu uzstādījumi</strong> un izvēlieties atbilstošo saiti.</li>
+<li><strong>Lursoft statusu uzstādījumi</strong> lapā aizpildiet uzstādījumus tabulas veidā:</li>
+</ol>
+<ul>
+<li>Lursoft valsts kods - norādiet atbilstošo valsts koda vērtību (LV, LT vai EE), atbilstošās valsts datu pieprasījuma apstrādei;</li>
+<li>Lursoft Statusa kods - norādiet atbilstošo Lursoft statusa vērtību, atbilstošās valsts (LV, LT vai EE) datu pieprasījuma apstrādei;</li>
+<li>Apraksts - norādiet Lursoft statusa vērtības aprakstu vai skaidrojumu, lauks ir informatīvs, paskaidro statusa nozīmi;</li>
+<li>Klienta Bloķēts vērtība - norādiet vērtību laukam Statuss klienta kartiņā, kāda tiks piemērota klienta datu apstrādes rezultātā, pēc saņemta atbilstošā Lursoft statusa;</li>
+<li>Piegādātāja Bloķēts vērtība - norādiet vērtību laukam Statuss piegādātāja kartiņā, kāda tiks piemērota piegādātāja datu apstrādes rezultātā, pēc saņemta atbilstošā Lursoft statusa.</li>
+</ul>
+<p><img src="images/setup_002.png" alt="alt"></p>
+<h2 id="lursoft-saīsinājumi">Lursoft Saīsinājumi</h2>
+<ol>
+<li>Nospiediet <strong>Meklēt</strong> ikonu lapas augšējā labajā stūrī, ievadiet <strong>Lursoft saīsinājumi</strong> un izvēlieties atbilstošo saiti vai lapā <strong>Lursoft uzstādījumi</strong> izvēlāties darbību <strong>Lursoft saīsinājumi</strong>.</li>
+<li><strong>Lursoft saīsinājumi</strong> tiek izmantoti pārāk garu partneru nosaukumu aizvietošanai, saīsināšanai ar vispārpieņemtiem saīsinājumiem;</li>
+<li><strong>Lursoft saīsinājumi</strong> lapā aizpildiet uzstādījumus tabulas veidā:</li>
+</ol>
+<ul>
+<li>Saīsinājumi - norādiet atbilstošo saīsinājuma vērtību;</li>
+<li>Apraksts - norādiet atbilstošo pilnā teksta vērtību, kuras atrašanas gadījumā tiks pielietots atbilstošais saīsinājums.</li>
+</ul>
+<p><img src="images/Setup_003.png" alt="alt"></p>
 <h1 id="kā-lietot">Kā lietot</h1>
-<h2 id="section"></h2>
+<h2 id="lursoft-klienta-datu-pieprasīšana">Lursoft klienta datu pieprasīšana</h2>
 <ol>
-<li>Nospiediet <strong>Meklēt</strong> ikonu</li>
+<li>Nospiediet <strong>Meklēt</strong> ikonu lapas augšējā labajā stūrī, ievadiet <em>Klienti</em> un izvēlieties atbilstošo saiti.</li>
+<li>Klientu sarakstā izvēlaties klientu, kuram nepieciešams veikt datu atjaunošanu no Lursoft un atveriet atbilstošā <strong>Klienta karti</strong>.</li>
 </ol>
-<p><img src="images/customer_001.png" alt="alt">
-<img src="images/customer_002.png" alt="alt">
-<img src="images/customer_003.png" alt="alt"></p>
-<p><img src="images/sales_001.png" alt="alt">
-<img src="images/sales_002.png" alt="alt"></p>
+<p><img src="images/customer_001.png" alt="alt"></p>
+<ol start="3">
+<li>Veiciet Lursoft datu pieprasīšanu, spiežot <strong>Atjaunot datus no Lursoft</strong>;</li>
+<li>Veiciet iepriekš pieprasīto datu pārskatīšanu, spiežot <strong>Lursoft izsekošanas žurnāls</strong>;</li>
+</ol>
+<p><img src="images/tracking_001.png" alt="alt"></p>
+<ol start="5">
+<li>Pārskatiet un apstipriniet no Lursoft saņemtos datus lapā <strong>Lursoft izsekošanas ierakstu detalizācija</strong>:</li>
+</ol>
+<ul>
+<li>Nosaukums - norāda klienta nosaukumu;</li>
+<li>Adrese - norāda klienta adreses informāciju;</li>
+<li>Pilsēta - norāda klienta pilsētu;</li>
+<li>Pasta indekss - norāda klienta pasta indeksu;</li>
+<li>PVN reģistrācijas numurs - norāda klienta PVN reģistrācijas numuru;</li>
+<li>Bloķēts - norāda klienta Statuss lauka vērtību Klientu kartē;</li>
+<li>Lursoft statusa kods - norāda saņemto statusa vērtību no Lursoft;</li>
+<li>Lursoft statusa apraksts - norāda saņemto statusa vērtības aprakstu no Lursoft.</li>
+</ul>
+<ol start="6">
+<li>Pēc Lurosft pieprasījuma izpildes apstipriniet datus lapā <strong>Lursoft izsekošanas ierakstu detalizācija</strong>, kuri tālāk tiks aizstāti arī Klientu kartes atbilstošajos laukos;</li>
+<li>Pārskatiet Lursoft datus lapā <strong>Klientu karte</strong> cilnē <strong>Vispārējā informācija</strong> grupā <strong>Lurosft</strong>:</li>
+</ol>
+<ul>
+<li>Lursoft pēdējais aktualizēšanas datums un laiks - norāda, kad pēdējo reizi tika atjaunoti dati no Lurosft;</li>
+<li>Lursoft klienta statusa kods - apzīmē, kāds Lurosft sistēmā ir dotā klienta statuss;</li>
+<li>Lursoft klienta statusa apraksts - apzīmē, kāds Lurosft sistēmā ir dotā klienta statusa apraksts vai skaidrojums;</li>
+<li>Lursoft PVN Maksātājs - norāda vai klients ir PVN maksātājs;</li>
+<li>Lursoft izlaist klienta nosaukuma atjaunošanu - jāatzīmē vai vēlaties atjaunot un aizvietot klienta nosaukumu ar nosaukumu, kas saņemts no Lursoft datiem.</li>
+</ul>
+<p><img src="images/customer_002.png" alt="alt"></p>
+<h2 id="lursoft-klienta-datu-pieprasīšana-no-pārdošanas-pasūtījuma">Lursoft klienta datu pieprasīšana no pārdošanas pasūtījuma</h2>
+<ol>
+<li>Nospiediet <strong>Meklēt</strong> ikonu lapas augšējā labajā stūrī, ievadiet <em>Pārdošanas pasūtījumi</em> un izvēlieties atbilstošo saiti.</li>
+<li>Pārdošanas pasūtījumu sarakstā izvēlaties pasūtījumu, kuram nepieciešams veikt klienta datu pieprasīšanu no Lursoft un atveriet atbilstošo <strong>Pārdošanas pasūtījumu</strong>.</li>
+<li>Veiciet Lursoft datu pieprasīšanu, spiežot <strong>Atjaunot datus no Lursoft</strong>;</li>
+</ol>
+<p><img src="images/sales_001.png" alt="alt"></p>
+<ol start="4">
+<li>Pārskatiet un apstipriniet no Lursoft saņemtos datus lapā <strong>Lursoft izsekošanas ierakstu detalizācija</strong>;</li>
+</ol>
+<p><img src="images/tracking_001.png" alt="alt"></p>
+<ol start="5">
+<li>Pēc Lurosft pieprasījuma izpildes apstiprinātie datus lapā <strong>Lursoft izsekošanas ierakstu detalizācija</strong>, kuri tiks aizstāti arī Klientu kartes atbilstošajos datu laukos;</li>
+<li>Pēc Lurosft pieprasījuma tiks atjaunots pieprasījuma datums un laiks arī lapā <strong>Pārdošanas pasūtījums</strong> laukā <strong>Klienta Lurosft atjaunošana</strong>:</li>
+</ol>
+<p><img src="images/sales_002.png" alt="alt"></p>
+<ol start="7">
+<li>No lapas Pārdošanas pasūtījums Lursoft veiciet datu pieprasīšanu un atjaunošanu tikai vienu reizi dienā, jo vairāk tas nav atļauts.</li>
+</ol>
+<h2 id="lursoft-piegādātāja-datu-pieprasīšana">Lursoft Piegādātāja datu pieprasīšana</h2>
+<ol>
+<li>Nospiediet <strong>Meklēt</strong> ikonu lapas augšējā labajā stūrī, ievadiet <em>Piegādātāji</em> un izvēlieties atbilstošo saiti.</li>
+<li>Piegādātāju sarakstā izvēlaties piegādātāju, kuram nepieciešams veikt datu atjaunošanu no Lursoft un atveriet atbilstošā <strong>Piegādātāja karti</strong>.</li>
+</ol>
+<p><img src="images/vendor_001.png" alt="alt"></p>
+<ol start="3">
+<li>Veiciet Lursoft datu pieprasīšanu, spiežot <strong>Atjaunot datus no Lursoft</strong>;</li>
+<li>Veiciet iepriekš pieprasīto datu pārskatīšanu, spiežot <strong>Lursoft izsekošanas žurnāls</strong>;</li>
+</ol>
+<p><img src="images/tracking_001.png" alt="alt"></p>
+<ol start="5">
+<li>Pārskatiet un apstipriniet no Lursoft saņemtos datus lapā <strong>Lursoft izsekošanas ierakstu detalizācija</strong>:</li>
+</ol>
+<ul>
+<li>Nosaukums - norāda piegādātāja nosaukumu;</li>
+<li>Adrese - norāda piegādātāja adreses informāciju;</li>
+<li>Pilsēta - norāda piegādātāja pilsētu;</li>
+<li>Pasta indekss - norāda piegādātāja pasta indeksu;</li>
+<li>PVN reģistrācijas numurs - norāda piegādātāja PVN reģistrācijas numuru;</li>
+<li>Bloķēts - norāda piegādātāja Statuss lauka vērtību Piegādātāja kartē;</li>
+<li>Lursoft statusa kods - norāda saņemto statusa vērtību no Lursoft;</li>
+<li>Lursoft statusa apraksts - norāda saņemto statusa vērtības aprakstu no Lursoft.</li>
+</ul>
+<ol start="6">
+<li><p>Pēc Lurosft pieprasījuma izpildes apstipriniet datus lapā <strong>Lursoft izsekošanas ierakstu detalizācija, kuri</strong> tiks aizstāti arī Piegādātāja kartes atbilstošajos laukos;</p>
+</li>
+<li><p>Pārskatiet Lursoft datus lapā <strong>Piegādātāju karte</strong> cilnē <strong>Vispārējā informācija</strong> grupā <strong>Lurosft</strong>:</p>
+</li>
+</ol>
+<ul>
+<li>Lursoft pēdējais aktualizēšanas datums un laiks - norāda, kad pēdējo reizi tika atjaunoti dati no Lurosft;</li>
+<li>Lursoft piegādātāja statusa kods - apzīmē, kāds Lurosft sistēmā ir dotā piegādātāja statuss;</li>
+<li>Lursoft piegādātāja statusa apraksts - apzīmē, kāds Lurosft sistēmā ir dotā piegādātāja statusa apraksts vai skaidrojums;</li>
+<li>Lursoft PVN Maksātājs - norāda vai piegādātājs ir PVN maksātājs;</li>
+<li>Lursoft izlaist piegādātāja nosaukuma atjaunošanu - jāatzīmē vai vēlaties atjaunot un aizvietot piegādātāja nosaukumu ar nosaukumu, kas saņemts no Lursoft datiem.</li>
+</ul>
+<p><img src="images/vendor_001.png" alt="alt"></p>
+<h2 id="lursoft-piegādātāja-datu-pieprasīšana-no-iepirkuma-pasūtījuma">Lursoft piegādātāja datu pieprasīšana no iepirkuma pasūtījuma</h2>
+<ol>
+<li>Nospiediet <strong>Meklēt</strong> ikonu lapas augšējā labajā stūrī, ievadiet <em>Iepirkuma pasūtījumi</em> un izvēlieties atbilstošo saiti.</li>
+<li>Iepirkuma pasūtījumu sarakstā izvēlaties pasūtījumu, kuram nepieciešams veikt piegādātāja datu pieprasīšanu no Lursoft un atveriet atbilstošo <strong>iepirkuma pasūtījumu</strong>.</li>
+<li>Veiciet Lursoft datu pieprasīšanu, spiežot <strong>Atjaunot datus no Lursoft</strong>;</li>
+</ol>
+<p><img src="images/vendor_002.png" alt="alt"></p>
+<ol start="4">
+<li>Pārskatiet un apstipriniet no Lursoft saņemtos datus lapā <strong>Lursoft izsekošanas ierakstu detalizācija</strong>;</li>
+</ol>
+<p><img src="images/tracking_001.png" alt="alt"></p>
+<ol start="5">
+<li>Pēc Lurosft pieprasījuma izpildes apstipriniet datus lapā <strong>Lursoft izsekošanas ierakstu detalizācija</strong>, kuri tiks aizstāti arī Piegādātāju kartes atbilstošajos datu laukos;</li>
+<li>Pēc Lurosft pieprasījuma izpildes, tiks atjaunoti dati arī lapā <strong>Iepirkumu pasūtījums</strong> laukā <strong>Piegādātāja Lurosft atjaunošana</strong>:</li>
+</ol>
+<p><img src="images/vendor_003.png" alt="alt"></p>
+<ol start="7">
+<li>No lapas Iepirkuma pasūtījums Lursoft datu pieprasīšanu un atjaunošanu veiciet tikai vienu reizi dienā, vairāk tas nav atļauts.</li>
+</ol>
+<h2 id="lursoft-izsekošanas-žurnāls">Lursoft izsekošanas žurnāls</h2>
+<ol>
+<li>Nospiediet <strong>Meklēt</strong> ikonu lapas augšējā labajā stūrī, ievadiet <em>Lursoft izsekošanas žurnāls</em> un izvēlieties atbilstošo saiti.</li>
+<li>Lapā <strong>Lursoft izsekošanas žurnāls</strong> redzama visa Lursoft pieprasījumu veikšanas vēsture, kas attēlota sekojošās veidā:</li>
+</ol>
+<ul>
+<li>Ieraksta Nr. - norāda secīgu pieprasījuma iekšējo saraksta numerāciju;</li>
+<li>Konta tips - norāda par ko Lursoft datu pieprasījums tika veikts (Klients vai Piegādātājs);</li>
+<li>Konta Nr. - norāda konkrētā klienta vai piegādātāja uzskaites numuru sistēmā;</li>
+<li>Reģistrācijas Nr. - norāda konkrētā klienta vai piegādātāja Reģistrācijas Nr., ar kuru tika veikts Lursoft datu pieprasījums;</li>
+<li>Valts kods - norāda valsts kodu, kādas valsts reģistrā Lursoft pieprasījums tika veikts;</li>
+<li>Lietotāja ID - norāda lietotāja ID, kas veica Lurosft datu pieprasījumu;</li>
+<li>Pieprasījuma datums, laiks - norāda Lursoft pieprasījuma izpildes datumu un laiku.</li>
+</ul>
+<p><img src="images/tracking_002.png" alt="alt"></p>
+<ol start="3">
+<li><strong>Lursoft izsekošanas žurnālā</strong> izvēlaties atbilstošo ierakstu no saraksta un veiciet detalizācijas pārskatīšanu, nospiežot pogu <strong>Izsekošanas ierakstu detalizācija</strong>:</li>
+</ol>
+<p><img src="images/tracking_003.png" alt="alt"></p>
+<ol start="4">
+<li>Lai dzēstu vēstures ierakstus <strong>Lursoft izsekošanas žurnālā</strong> izvēlaties atbilstošo ierakstu no saraksta un veiciet darbību <strong>Saistītās</strong> un <strong>Dzēst</strong>:</li>
+</ol>
+<ul>
+<li>Dzēst tekošo ierakstu - izpildiet, ja vēlaties dzēst konkrētu Lurosft pieprasījuma izsekošanas ierakstu;</li>
+<li>Dzēst visus ierakstus - izpildiet, ja vēlaties dzēst visus Lurosft pieprasījuma izsekošanas ierakstus;</li>
+<li>Dzēst ierakstus, kas vecāku par 30 dienām - izpildiet, ja vēlaties dzēst visus Lurosft pieprasījuma izsekošanas ierakstus,
+kas vecāki par 30 dienām;</li>
+<li>Dzēst ierakstus, kas vecāku par 90 dienām - izpildiet, ja vēlaties dzēst visus Lurosft pieprasījuma izsekošanas ierakstus, kas vecāki par 90 dienām.</li>
+</ul>
+<p><img src="images/tracking_004.png" alt="alt"></p>
 </article>
           </div>
           
