@@ -80,29 +80,214 @@
 <h1 id="how-to-get-started">How to get started</h1>
 
 <h2 id="permissions-sets">Permissions Sets</h2>
-<p>To use Lursoft Integration,  the user must be assigned the permission set <strong>ELV2-LURSOFT</strong>.</p>
+<p>To use Lursoft Integration, the user must be assigned the permission set <strong>ELV2-LURSOFT</strong>.</p>
 <h1 id="how-to-set-up-">How to set up Lursoft Integration</h1>
 <ol>
 <li>Select the <strong>Search</strong> icon in the top-right corner of the page, enter <strong>Lursoft Setup</strong> and then select the related link.</li>
+<li>On the <strong>Lursoft Setup</strong> page, fill in the basic integration settings tab <strong>General</strong>:</li>
 </ol>
-<p>Lursoft Integration</p>
-
-<p><img src="images/setup_001.png" alt="alt">
-<img src="images/setup_002.png" alt="alt">
-<img src="images/Setup_003.png" alt="alt"></p>
-<div style="page-break-after: always; visibility: hidden"> 
-\pagebreak 
-</div>
-<h1 id="how-to-use">How to use</h1>
-<h2 id="section"></h2>
+<ul>
+<li>Enabled - turn on if you start using Lursoft Integration;</li>
+<li>User name - specify the user name received from Lursoft;</li>
+<li>User password - specify the user password received from Lursoft;</li>
+<li>User oAuth ID - specify the user oAuth ID received from Lursoft;</li>
+<li>User oAuth password - specify the password of the user oAuth ID received from Lursoft;</li>
+<li>Scope - specify the Scope value received from Lursoft;</li>
+<li>Update without confirmation window - turn on if you want to use Lursoft data update without using the user confirmation window;</li>
+<li>Access key - is assigned and filled in the system automatically after the execution of Lursoft authentication;</li>
+<li>Date, time of the access key - is assigned and filled in the system automatically after the completion of Lursoft authentication;</li>
+<li>Access key validity - is assigned and filled in the system automatically after performing Lursoft authentication;</li>
+<li>Restore key - is assigned and filled in the system automatically after performing Lursoft authentication;</li>
+<li>Date, time of the recovery key - is assigned and filled in the system automatically after the completion of Lursoft authentication;</li>
+<li>Validity of the restore key - specify the value +30D, which is defined in the Lursoft documentation. The validity period of the renewal key is 30 days or 720 hours;</li>
+</ul>
+<p>On the <strong>Lursoft Setup</strong> page, fill in the integration settings on the <strong>Lursoft LV</strong> tab:</p>
+<ul>
+<li>LV Country code - specify the value LV from the list of countries to make data requests from the Lursoft Latvian register;</li>
+<li>Access key request - specify the link to obtain access to the authorization key;</li>
+<li>Request API - specify the data request link for the partner search by Registration Number;</li>
+<li>Statement of the legal entity - indicate the link of the data request for obtaining the legal statement of the partner;</li>
+<li>Statement of a public person or institution - indicate the link of the data request for obtaining the statement of the partner as a Public Person or Institution.</li>
+</ul>
+<p>On the <strong>Lursoft Setup</strong> page, fill in the integration settings in the <strong>Lursoft LT</strong> tab**:</p>
+<ul>
+<li>LT Country code - specify the value LT from the list of countries to make data requests from the Lursoft Lithuanian register;</li>
+<li>Statement of the legal entity LT - indicate the link of the data request for obtaining the legal statement of the partner from the LT register.</li>
+</ul>
+<p>On the <strong>Lursoft Setup</strong> page, fill in the integration settings in the <strong>Lursoft EE</strong> tab:</p>
+<ul>
+<li>EE Country code - specify the value EE from the list of countries to make data requests from the Lursoft Estonian register;</li>
+<li>Statement of legal entity EE - indicate the link of the data request for obtaining the partner's legal statement from the EE register.</li>
+</ul>
+<p><img src="images/setup_001.png" alt="alt"></p>
+<p>All requests for requests for national (LV, LT and EE) data registers required in the settings can be found in the Lursoft documentation <a href="https://www.lursoft.lv/en/api-solutions">Lursoft</a>.</p>
+<h2 id="lursoft-status-settings">Lursoft Status Settings</h2>
 <ol>
-<li>Choose the <strong>Search</strong> icon</li>
+<li>Press the <strong>Search</strong> icon in the upper right corner of the page, enter <strong>Lursoft status settings</strong> and select the appropriate link.</li>
+<li>On the <strong>Lursoft status settings</strong> page, fill in the settings in the form of a table:</li>
 </ol>
-<p><img src="images/customer_001.png" alt="alt">
-<img src="images/customer_002.png" alt="alt">
-<img src="images/customer_003.png" alt="alt"></p>
-<p><img src="images/sales_001.png" alt="alt">
-<img src="images/sales_002.png" alt="alt"></p>
+<ul>
+<li>Lursoft country code - specify the corresponding country code value (LV, LT or EE) for processing the corresponding country data request;</li>
+<li>Lursoft Status Code - specify the corresponding value of Lursoft status for processing the data request of the corresponding country (LV, LT or EE);</li>
+<li>Description - indicate a description or explanation of the Lursoft status value, the field is informative, explains the meaning of the status;</li>
+<li>Customer Blocked value - specify the value for the Status field in the customer's card, which will be applied as a result of the customer's data processing, after receiving the corresponding Lursoft status;</li>
+<li>Vendor Blocked value - specify the value for the Status field on the vendor's card, which will be applied as a result of the vendor's data processing, after receiving the corresponding Lursoft status.</li>
+</ul>
+<p><img src="images/setup_002.png" alt="alt"></p>
+<h2 id="lursoft-saīsinājumi">Lursoft Saīsinājumi</h2>
+<ol>
+<li>Press the <strong>Search</strong> icon in the upper right corner of the page, enter <strong>Lursoft abbreviations</strong> and select the appropriate link or on the <strong>Lursoft Setup</strong> page choose the <strong>Lursoft abbreviations</strong> action**.</li>
+<li><strong>Lursoft abbreviations</strong> are used to replace too long partner names, abbreviations with generally accepted abbreviations;</li>
+<li>On the <strong>Lursoft abbreviations</strong> page, fill in the settings in the form of a table:</li>
+</ol>
+<ul>
+<li>Abbreviations - specify the appropriate abbreviation value;</li>
+<li>Description - specify the corresponding value of the full text, if found for which the corresponding abbreviation will be applied.</li>
+</ul>
+<p><img src="images/Setup_003.png" alt="alt"></p>
+<h1 id="how-to-use">How to use</h1>
+<h2 id="requesting-lursoft-client-data">Requesting Lursoft client data</h2>
+<ol>
+<li>Press the <strong>Search</strong> icon in the upper right corner of the page, enter <em>Customers</em> and select the appropriate link.</li>
+<li>In the list of customers, select the customer who needs to perform data restoration from Lursoft and open the corresponding <strong>Customer Card</strong>.</li>
+</ol>
+<p><img src="images/customer_001.png" alt="alt"></p>
+<ol start="3">
+<li>Request Lursoft data by clicking <strong>Restore data from Lursoft</strong>;</li>
+<li>Perform a review of the previously requested data by clicking <strong>Lursoft tracking log</strong>;</li>
+</ol>
+<p><img src="images/tracking_001.png" alt="alt"></p>
+<ol start="5">
+<li>Review and confirm the data received from Lursoft on the page <strong>Detail of Lursoft tracking records</strong>:</li>
+</ol>
+<ul>
+<li>Name - indicates the name of the client;</li>
+<li>Address - indicates the customer's address information;</li>
+<li>City - indicates the city of the client;</li>
+<li>Postal code - indicates the postal code of the customer;</li>
+<li>VAT registration number - indicates the VAT registration number of the customer;</li>
+<li>Blocked - specifies the value of the customer's Status field on the Customer card;</li>
+<li>Lursoft status code - indicates the received status value from Lursoft;</li>
+<li>Lursoft status description - indicates the description of the received status value from Lursoft.</li>
+</ul>
+<ol start="6">
+<li>After fulfilling the Lurosft request, confirm the data on the page <strong>Detail of Lursoft tracking records</strong>, which will be further replaced in the corresponding fields of the Customer Card;</li>
+<li>Review Lursoft data on the page <strong>Customer card</strong> on the tab <strong>General information</strong> in the group <strong>Lurosft</strong>:</li>
+</ol>
+<ul>
+<li>Lursoft last update date and time - indicates when the data from Lurosft was last updated;</li>
+<li>Lursoft client status code - denotes what is the status of a given client in the Lurosft system;</li>
+<li>Lursoft customer status description - denotes what description or explanation of the given client's status is in the Lurosft system;</li>
+<li>Lursoft VAT Payer - indicates whether the customer is a VAT payer;</li>
+<li>Lursoft skip the renewal of the client's name - it should be noted whether you want to restore and replace the client's name with the name received from Lursoft's data.</li>
+</ul>
+<p><img src="images/customer_002.png" alt="alt"></p>
+<h2 id="requesting-lursoft-customer-data-from-a-sales-order">Requesting Lursoft customer data from a sales order</h2>
+<ol>
+<li>Press the <strong>Search</strong> icon in the upper right corner of the page, enter <em>Sales Orders</em> and select the appropriate link.</li>
+<li>In the list of sales orders, select the order for which you need to request customer data from Lursoft and open the corresponding <strong>Sales order</strong>.</li>
+<li>Request Lursoft data by clicking <strong>Restore data from Lursoft</strong>;</li>
+</ol>
+<p><img src="images/sales_001.png" alt="alt"></p>
+<ol start="4">
+<li>Review and confirm the data received from Lursoft on the page <strong>Detail of Lursoft tracking records</strong>;</li>
+</ol>
+<p><img src="images/tracking_001.png" alt="alt"></p>
+<ol start="5">
+<li>After fulfilling the Lurosft request, the confirmed data on the page <strong>Detail of Lursoft tracking records</strong>, which will also be replaced in the corresponding data fields of the Customer Card;</li>
+<li>Upon Lurosft's request, the date and time of the request will also be updated on the <strong>Sales order</strong> field in the <strong>Customer Lurosft renewal</strong> field**:</li>
+</ol>
+<p><img src="images/sales_002.png" alt="alt"></p>
+<ol start="7">
+<li>From the page Sales order in Lursoft, request and update data only once a day, the more it is not allowed.</li>
+</ol>
+<h2 id="lursoft-requesting-vendor-data">Lursoft Requesting Vendor Data</h2>
+<ol>
+<li>Press the <strong>Search</strong> icon in the upper right corner of the page, enter <em>Vendors</em> and select the appropriate link.</li>
+<li>In the list of vendors, select the vendor who needs to perform data restoration from Lursoft and open the corresponding <strong>Vendor Card</strong>.</li>
+</ol>
+<p><img src="images/vendor_001.png" alt="alt"></p>
+<ol start="3">
+<li>Request Lursoft data by clicking <strong>Restore data from Lursoft</strong>;</li>
+<li>Perform a review of the previously requested data by clicking <strong>Lursoft tracking log</strong>;</li>
+</ol>
+<p><img src="images/tracking_001.png" alt="alt"></p>
+<ol start="5">
+<li>Review and confirm the data received from Lursoft on the page <strong>Detail of Lursoft tracking records</strong>:</li>
+</ol>
+<ul>
+<li>Name - indicates the name of the vendor;</li>
+<li>Address - indicates the address information of the vendor;</li>
+<li>City - indicates the city of the vendor;</li>
+<li>Postal code - indicates the postal code of the vendor;</li>
+<li>VAT registration number - indicates the VAT registration number of the vendor;</li>
+<li>Blocked - specifies the value of the Vendor Status field on the Vendor card;</li>
+<li>Lursoft status code - indicates the received status value from Lursoft;</li>
+<li>Lursoft status description - indicates the description of the received status value from Lursoft.</li>
+</ul>
+<ol start="6">
+<li><p>After fulfilling the Lurosft request, confirm the data on the page <strong>Detail of Lursoft tracking records, which</strong> will also be replaced in the corresponding fields of the Vendor's card;</p>
+</li>
+<li><p>Review the Lursoft data on the <strong>Vendor Card</strong> page on the <strong>General</strong> tab in the <strong>Lurosft</strong> group**:</p>
+</li>
+</ol>
+<ul>
+<li>Lursoft last update date and time - indicates when the data from Lurosft was last updated;</li>
+<li>Lursoft vendor status code - denotes what is the status of a given vendor in the Lurosft system;</li>
+<li>Description of the status of the vendor of Lursoft - denotes what is the description or explanation of the status of the given vendor in the Lurosft system;</li>
+<li>Lursoft VAT payer - indicates whether the vendor is a VAT payer;</li>
+<li>Lursoft skip the renewal of the vendor's name - it should be noted whether you want to restore and replace the vendor's name with the name received from Lursoft's data.</li>
+</ul>
+<p><img src="images/vendor_001.png" alt="alt"></p>
+<h2 id="requesting-lursoft-vendor-data-from-a-procurement-order">Requesting Lursoft vendor data from a procurement order</h2>
+<ol>
+<li>Press the <strong>Search</strong> icon in the upper right corner of the page, enter <em>Purchase orders</em> and select the appropriate link.</li>
+<li>In the list of procurement orders, select an order for which you need to request vendor data from Lursoft and open the corresponding <strong>procurement order</strong>.</li>
+<li>Request Lursoft data by clicking <strong>Restore data from Lursoft</strong>;</li>
+</ol>
+<p><img src="images/vendor_002.png" alt="alt"></p>
+<ol start="4">
+<li>Review and confirm the data received from Lursoft on the page <strong>Detail of Lursoft tracking records</strong>;</li>
+</ol>
+<p><img src="images/tracking_001.png" alt="alt"></p>
+<ol start="5">
+<li>After fulfilling the Lurosft request, confirm the data on the page <strong>Detail of Lursoft tracking records</strong>, which will also be replaced in the corresponding data fields of the Vendor Card;</li>
+<li>After fulfilling the Lurosft request, the data on the <strong>Purchase order</strong> field in the <strong>Vendor Lurosft renewal</strong> field will also be updated:</li>
+</ol>
+<p><img src="images/vendor_003.png" alt="alt"></p>
+<ol start="7">
+<li>From the page Procurement order Lursoft data request and update only once a day, more it is not allowed.</li>
+</ol>
+<h2 id="lursoft-tracking-log">Lursoft tracking log</h2>
+<ol>
+<li>Press the <strong>Search</strong> icon in the upper right corner of the page, enter <em>Lursoft tracking log</em> and select the appropriate link.</li>
+<li>The page <strong>Lursoft tracking log</strong> shows the entire history of making Lursoft requests, which is presented as follows:</li>
+</ol>
+<ul>
+<li>Entry No - indicates the sequential internal list numbering of the request;</li>
+<li>Account type - indicates for which Lursoft data request was made (Customer or Vendor);</li>
+<li>Account No. - indicates the accounting number of a particular customer or vendor in the system;</li>
+<li>Registration No. - indicates the Registration No. of the particular customer or vendor with which the Lursoft data request was made;</li>
+<li>Valts code - indicates the country code in which state register the Lursoft request was made;</li>
+<li>User ID - indicates the user ID who made the Lurosft data request;</li>
+<li>Date, time of the request - indicates the date and time of execution of the Lursoft request.</li>
+</ul>
+<p><img src="images/tracking_002.png" alt="alt"></p>
+<ol start="3">
+<li>In the <strong>Lursoft tracking log</strong> select the corresponding entry from the list and perform a detail review by pressing the <strong>Tracking record detailing button</strong>:</li>
+</ol>
+<p><img src="images/tracking_003.png" alt="alt"></p>
+<ol start="4">
+<li>To delete history entries in the <strong>Lursoft tracking log</strong> select the corresponding entry from the list and perform the action <strong>Related</strong> and <strong>Delete</strong>:</li>
+</ol>
+<ul>
+<li>Delete current record - execute if you want to delete a specific Lurosft request tracking record;</li>
+<li>Delete all records - execute if you want to delete all Lurosft request tracking records;</li>
+<li>Delete records older than 30 days - follow if you want to delete all Lurosft request tracking records,
+older than 30 days;</li>
+<li>Delete records older than 90 days - follow this if you want to delete all Lurosft request tracking records older than 90 days.</li>
+</ul>
+<p><img src="images/tracking_004.png" alt="alt"></p>
 </article>
           </div>
           
